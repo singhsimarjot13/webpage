@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    
+</head>
+<style>
+.main{
+display: flex;
+justify-content: space-around;
+margin-top: 40px;}
+h1{
+    line-height: 2.5;
+    text-align: center;
+}
+
+hr{
+    width: 10%;
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 8px;
+    border-color: black;
+    margin: 20px auto;
+ 
+}
+.card-body{
+    text-align: center;
+}
+.card{
+    border: 5px solid  rgb(60,179,113);
+    border-radius: 5%;
+}
+@media(max-width:950px){
+.main{
+    flex-direction: column;
+    align-items: center;
+}
+.card{
+    margin-top: 20px;
+    overflow: hidden;
+}
+}
+.card::before{
+  box-sizing: border-box;
+}
+.card::after{
+  box-sizing: border-box;
+}
+.ca{
+   height: 50%;
+   overflow: hidden;
+   margin: 0;
+   padding: 0;
+   border-radius: 12px;
+   object-fit: cover;
+   transition: transform .5s ease;
+
+  
+}
+.ca:hover{
+  transform:scale(1.2);
+ 
+  transition-duration:1sec;
+  
+}
+
+
+</style>
+<body>
+<h1 class=" display-5 fw-bold text-success " style="--bs-text-opacity: .5;">Courses and Training offered</h1>
+<div class="main">
+    <div class="card" style="width: 22rem;">
+        <img src="./WhatsApp Image 2023-10-07 at 16.56.33.jpeg" class="card-img-top ca" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Course in Ayurvedic Diabetes</h5>
+          <h6>Price:500/-</h6>
+          <h6>Duration:3 hour</h6>
+          <p class="card-text">It will help you learn the principle and practicees of Ayurvedic nutrition and dietics.</p>
+          <a href="#" class="btn btn-primary">Add to cart</a>
+        </div>
+      </div>
+      <div class="card" style="width: 22rem;">
+        <img src="./WhatsApp Image 2023-10-07 at 14.55.19.jpeg" class="card-img-top ca" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Meditation 101</h5>
+          <h6>Price:150/-</h6>
+          <h6>Duration:3 hrs</h6>
+          <p class="card-text">A beginner's guide to find inner peace.It brings awareness to your breathe or body sensations and letting thoughts go without judgement.</p>
+          <a href="#" class="btn btn-primary">Add to cart</a>
+        </div>
+      </div>
+      <div class="card" style="width: 22rem;">
+        <img src="./WhatsApp Image 2023-10-07 at 14.55.48.jpeg" class="card-img-top ca" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Unani</h5>
+          <h6>Price:250/-</h6>
+          <h6>Duration:5 hrs</h6>
+          <p class="card-text">An introduction to Healing system.This will teach the baisc principle and concepts of Unani medicine</p>
+          <a href="#" class="btn btn-primary">Add to cart</a>
+        </div>
+      </div>
+</div>
+<hr>
+<div class="main">
+
+    <div class="card" style="width: 24rem;">
+        <img src="./WhatsApp Image 2023-10-07 at 16.29.10.jpeg" class="card-img-top ca" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Spices & Herbs</h5>
+          <h6>Price:144/-</h6>
+          <h6>Duration:3 hrs</h6>
+          <p class="card-text">This course will teach you how various herbs and spices are used to enhance the taste,aroma, as well as to boost the nutrition.</p>
+          <a href="#" class="btn btn-primary">Add to cart</a>
+        </div>
+      </div>
+      <div class="card" style="width: 24rem;">
+        <img src="./WhatsApp Image 2023-10-07 at 16.55.08.jpeg" class="card-img-top ca" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Yoga</h5>
+          <h6>Price:1000/-</h6>
+          <h6>Duration:30 hrs</h6>
+          <p class="card-text">This course will teach you the fundamentals of yoga which will improve your flexibility,strength and posture.</p>
+          <a href="#" class="btn btn-primary">Add to cart</a>
+        </div>
+      </div>
+      <div class="card" style="width: 24rem;">
+        <img src="./maxresdefault.jpg" class="card-img-top ca" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Ayurvedic treatment for diseases</h5>
+          <h6>Price:350/-</h6>
+          <h6>Duration:6 hrs</h6>
+          <p class="card-text">This course provides information about Ayurvedic treatment for diseases and conditions as well as how can we treat them in a effective way</p>
+          <a href="#" class="btn btn-primary">Add to cart</a>
+        </div>
+      </div>
+</div>
+<hr>
+    <div class="main">
+        <div class="card" style="width: 24rem;">
+            <img src="./WhatsApp Image 2023-10-07 at 14.54.10.jpeg" class="card-img-top ca" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Aroma Therapy</h5>
+              <h6>Price:333/-</h6>
+              <h6>Duration:10 hrs</h6>
+              <p class="card-text">Clinical use of different oils.It will provide you with Divine knowledge for professional use.</p>
+              <a href="#" class="btn btn-primary">Add to cart</a>
+            </div>
+          </div>
+          <div class="card" style="width: 24rem;">
+            <img src="./obama.jpg" class="card-img-top ca" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Panchkarma</h5>
+              <h6>Price:500/-</h6>
+              <h6>Duration:10 hrs</h6>
+              <p class="card-text">It is a training program is a cleansing and rejuvenating program for the body, mind and consciousness.</p>
+              <a href="#" class="btn btn-primary">Add to cart</a>
+            </div>
+          </div>
+          <div class="card" style="width: 24rem;">
+            <img src="./WhatsApp Image 2023-10-07 at 17.17.01.jpeg" class="card-img-top ca" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Ayurveda  for natural beauty and wellness</h5>
+              <h6>Price:400/-</h6>
+              <h6>Duration:5 hrs</h6>
+              <p class="card-text">This course will cover you role of digestion,metabolism and detoxification in maintaining natural beauty and wellness.</p>
+              <a href="#" class="btn btn-primary">Add to cart</a>
+            </div>
+          </div>
+    </div>
+    <hr>
+    
+   
+</body>
+</html>
